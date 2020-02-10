@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65aa38bf-e4a7-4b33-9af1-b27414378480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/cascade_rcnn_baselines/e2e_mask_cascade_rcnn_X-152-32x8d-FPN-IN5k_1.44x_edd.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectron/datasets/dataset_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/detectron/datasets/dataset_catalog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="md" value="2" />
           <entry key="py" value="3" />
           <entry key="sh" value="1" />
@@ -30,19 +30,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="3" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="2" />
           <entry key="py" value="74" />
+          <entry key="txt" value="14" />
           <entry key="yaml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="16" />
           <entry key="Python" value="74" />
           <entry key="YAML" value="2" />
         </counts>
@@ -87,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detectron/datasets/dataset_catalog.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="381">
@@ -95,6 +98,15 @@
               <folding>
                 <element signature="e#712#750#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -116,6 +128,7 @@
       <list>
         <option value="$PROJECT_DIR$/configs/cascade_rcnn_baselines/e2e_mask_cascade_rcnn_X-152-32x8d-FPN-IN5k_1.44x_edd.yaml" />
         <option value="$PROJECT_DIR$/detectron/datasets/dataset_catalog.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -141,29 +154,6 @@
             <path>
               <item name="CB-Net-EDD" type="b2602c69:ProjectViewProjectNode" />
               <item name="CB-Net-EDD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CB-Net-EDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CB-Net-EDD" type="462c0819:PsiDirectoryNode" />
-              <item name="detectron" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CB-Net-EDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CB-Net-EDD" type="462c0819:PsiDirectoryNode" />
-              <item name="detectron" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CB-Net-EDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CB-Net-EDD" type="462c0819:PsiDirectoryNode" />
-              <item name="detectron" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CB-Net-EDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CB-Net-EDD" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,6 +196,14 @@
       <option name="presentableId" value="Default" />
       <updated>1581075470350</updated>
     </task>
+    <task id="LOCAL-00001" summary="added datasets">
+      <created>1581335650556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581335650556</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -219,7 +217,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -240,6 +238,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added datasets" />
+    <option name="LAST_COMMIT_MESSAGE" value="added datasets" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/train_cascade.sh">
@@ -292,6 +294,13 @@
           <folding>
             <element signature="e#712#750#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
