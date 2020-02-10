@@ -201,6 +201,22 @@ _DATASETS = {
             _DATA_DIR + '/VOC2012/annotations/voc_2012_val.json',
         _DEVKIT_DIR:
             _DATA_DIR + '/VOC2012/VOCdevkit2012'
+    },
+    'edd_2020_train': {
+            _IM_DIR:
+                _DATA_DIR + '/EDD/images',
+            _ANN_FN:
+                _DATA_DIR + '/EDD/annotations/edd_2020_train.json',
+            _DEVKIT_DIR:
+                _DATA_DIR + '/VOC2012/VOCdevkit2012'
+    },
+    'edd_2020_test': {
+            _IM_DIR:
+                _DATA_DIR + '/EDD/images',
+            _ANN_FN:
+                _DATA_DIR + '/EDD/annotations/edd_2020_test.json',
+            _DEVKIT_DIR:
+                _DATA_DIR + '/VOC2012/VOCdevkit2012'
     }
 }
 
