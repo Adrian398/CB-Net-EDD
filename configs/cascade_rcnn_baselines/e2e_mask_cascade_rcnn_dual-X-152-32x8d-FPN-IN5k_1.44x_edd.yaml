@@ -4,7 +4,7 @@ MODEL:
   NUM_CLASSES: 5
   FASTER_RCNN: True
   MASK_ON: True
-  CASCADE_ON: True
+  #CASCADE_ON: True
   CLS_AGNOSTIC_BBOX_REG: True  # default: False
 NUM_GPUS: 1
 SOLVER:
