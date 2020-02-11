@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65aa38bf-e4a7-4b33-9af1-b27414378480" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/configs/cascade_rcnn_baselines/e2e_mask_cascade_rcnn_dual-X-152-32x8d-FPN-IN5k_1.44x_edd.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/cascade_rcnn_baselines/e2e_mask_cascade_rcnn_dual-X-152-32x8d-FPN-IN5k_1.44x_edd.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detectron/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/detectron/core/config.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="py" value="74" />
+          <entry key="py" value="84" />
           <entry key="sh" value="4" />
           <entry key="txt" value="29" />
           <entry key="yaml" value="30" />
@@ -49,7 +49,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="35" />
-          <entry key="Python" value="74" />
+          <entry key="Python" value="84" />
           <entry key="YAML" value="30" />
         </counts>
       </usages-collector>
@@ -75,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configs/cascade_rcnn_baselines/e2e_mask_cascade_rcnn_dual-X-152-32x8d-FPN-IN5k_1.44x_edd.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -93,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/detectron/core/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18135">
-              <caret line="1225" column="39" selection-start-line="1225" selection-start-column="16" selection-end-line="1225" selection-end-column="39" />
+            <state relative-caret-position="294">
+              <caret line="1191" column="22" selection-start-line="1191" selection-start-column="22" selection-end-line="1191" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -143,6 +143,7 @@
         <option value="$PROJECT_DIR$/train_cascade.sh" />
         <option value="$PROJECT_DIR$/configs/cascade_rcnn_baselines/e2e_mask_cascade_rcnn_X-152-32x8d-FPN-IN5k_1.44x_edd.yaml" />
         <option value="$PROJECT_DIR$/configs/cascade_rcnn_baselines/e2e_mask_cascade_rcnn_dual-X-152-32x8d-FPN-IN5k_1.44x_edd.yaml" />
+        <option value="$PROJECT_DIR$/detectron/core/config.py" />
       </list>
     </option>
   </component>
@@ -320,20 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/train_net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detectron/core/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18135">
-          <caret line="1225" column="39" selection-start-line="1225" selection-start-column="16" selection-end-line="1225" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/detectron/datasets/dataset_catalog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3075">
@@ -369,6 +356,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/train_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="53" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detectron/core/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="1191" column="22" selection-start-line="1191" selection-start-column="22" selection-end-line="1191" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -1189,6 +1189,7 @@ def merge_cfg_from_list(cfg_list):
     """
     assert len(cfg_list) % 2 == 0
     for full_key, v in zip(cfg_list[0::2], cfg_list[1::2]):
+        print(full_key)
         if _key_is_deprecated(full_key):
             continue
         if _key_is_renamed(full_key):
